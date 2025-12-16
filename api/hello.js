@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req,res)=>{
-    res.json({message:"Express On Vercel!!!"});
+    res.send("Express On Vercel!!!");
 });
 
 export default app;
